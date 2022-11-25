@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  baseApi: 'https://free-to-play-games-database.p.rapidapi.com/api'
+  baseApi: 'https://free-to-play-games-database.p.rapidapi.com/api',
+  RapidAPIKey: '7500219dc7msh3c0663b0d7b5241p1ee468jsnefcb7c656f2a',
+  RapidAPIHost: 'free-to-play-games-database.p.rapidapi.com',
 };
 
 /*

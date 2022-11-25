@@ -16,8 +16,8 @@ export class GamesService {
     return this.http.get<Game[]>(`${environment.baseApi}/games?category=${category}`,
       {
         headers: new HttpHeaders()
-          .set('X-RapidAPI-Key', '7500219dc7msh3c0663b0d7b5241p1ee468jsnefcb7c656f2a')
-          .set('X-RapidAPI-Host', 'free-to-play-games-database.p.rapidapi.com')
+          .set('X-RapidAPI-Key', environment.RapidAPIKey)
+          .set('X-RapidAPI-Host', environment.RapidAPIHost)
       });
   }
 
