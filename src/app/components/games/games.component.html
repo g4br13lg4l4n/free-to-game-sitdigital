@@ -1,0 +1,10 @@
+<article *ngFor="let game of listGames" class="card">
+    <img [src]="game.thumbnail" class="card-image">
+    <div>
+        <h3> {{ game.title }} </h3>
+        <p> {{ game.short_description }}</p>
+        <a [href]="game.game_url">Ir a {{ game.title }}</a>
+        <p> {{ game.genre }} </p>
+        <p> {{ game.platform }} </p>
+    </div>
+</article>

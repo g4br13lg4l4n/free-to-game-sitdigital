@@ -1,0 +1,8 @@
+.card {
+    padding: 1em;
+}
+
+.card .card-image {
+    max-width: 230px;
+    height: auto;
+}
